@@ -1,11 +1,10 @@
 
 @font-face {
     font-family: 'SangBleu';
-    src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.svg") format('svg');
-    src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.eot");
-    src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.eot#iefix") format('embedded-opentype');
     src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.otf") format("opentype");
     src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light.ttf") format("truetype");
+    src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.eot");
+    src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.eot#iefix") format('embedded-opentype');
     src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.woff") format("woff"), url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.woff2") format("woff2");
     font-weight: light;
     font-style: regular;
