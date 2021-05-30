@@ -21,6 +21,10 @@ h1 {
     letter-spacing: 0.4rem;
 }
 
+h2 {
+    font-family: 'SangBleu', 'Lato', sans-serif;
+}
+
 a, li, ul {
     color: #000;
 }
