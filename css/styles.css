@@ -1,6 +1,7 @@
 
 @font-face {
     font-family: 'SangBleu';
+    src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.svg") format('svg');
     src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.eot");
     src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.eot#iefix") format('embedded-opentype');
     src: url("https://salomedesignhouse.github.io/css/fonts/SangBleuOGSans-Light-WebS.otf") format("opentype");
