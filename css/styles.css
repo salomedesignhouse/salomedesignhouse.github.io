@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "SangBleu";
+    fon
+    src: url(fonts/SangBleuOGSans-Light-WebS.otf) format("opentype");
+    src: url(fonts/SangBleuOGSans-Light-WebS.woff) format("woff"), url(fonts/SangBleuOGSans-Light-WebS.woff2) format("woff2");
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Set font to SangBleu */
+h1 {
+    font-family: "SangBleu", 'Lato', sans-serif;
+    font-size: 3.5rem;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -9,11 +26,6 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-}
-
-/* Set font to SangBleu */
-h1 {
-    font-size: 3.5rem;
 }
 
 .process-item .process-item-number {
@@ -30,7 +42,7 @@ h1 {
     font-size: 3.157rem;
 }
 
-
+/* Cover Scroll */
 .swiper-container {
     width: 100%;
     padding-top: 50px;
