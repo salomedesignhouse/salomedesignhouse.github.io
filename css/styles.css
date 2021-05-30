@@ -1,8 +1,12 @@
+
 @font-face {
-    font-family: "SangBleu";
-    fon
-    src: url(fonts/SangBleuOGSans-Light-WebS.otf) format("opentype");
-    src: url(fonts/SangBleuOGSans-Light-WebS.woff) format("woff"), url(fonts/SangBleuOGSans-Light-WebS.woff2) format("woff2");
+    font-family: 'SangBleu';
+    src: url("../fonts/SangBleuOGSans-Light-WebS.eot");
+    src: url("../fonts/SangBleuOGSans-Light-WebS.eot#iefix") format('embedded-opentype');
+    src: url("../fonts/SangBleuOGSans-Light-WebS.otf") format("opentype");
+    src: url("../fonts/SangBleuOGSans-Light.ttf") format("truetype");
+    src: url("../fonts/SangBleuOGSans-Light-WebS.woff") format("woff"), url("../fonts/SangBleuOGSans-Light-WebS.woff2") format("woff2");
+    font-weight: light;
 }
 
 body {
@@ -11,10 +15,14 @@ body {
 
 /* Set font to SangBleu */
 h1 {
-    font-family: "SangBleu", 'Lato', sans-serif;
-    font-size: 3.5rem;
+    font-family: 'SangBleu', 'Lato', sans-serif;
+    font-size: 4.5rem;
+    letter-spacing: 0.4rem;
 }
 
+a, li, ul {
+    color: #000;
+}
 .hero {
     position: relative;
     width: 100%;
@@ -60,3 +68,19 @@ h1 {
     display: block;
     width: 100%;
   }
+
+  /* Nav styling */
+
+.navbar {
+    color: #000;
+}
+
+.nav-link :active, .nav-link {
+    color: #000;
+}
+
+.nav-item :hover {
+    color: #000;
+    text-decoration: line-through;
+    
+}
