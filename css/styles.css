@@ -1,40 +1,73 @@
+/* ALL FONT STUFF */
 
+/* 
 @font-face {
     font-family: 'SangBleu';
-    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.otf") format("opentype");
+    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light.otf") format("opentype");
     src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.woff") format("woff"), url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.woff2") format("woff2");
     src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light.ttf") format("truetype");
     src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.eot");
     src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.eot#iefix") format('embedded-opentype');
     font-weight: light;
     font-style: regular;
+} */
+
+/* light */
+@font-face {
+    font-family: 'SangBleu';
+    src: url(../fonts/SangBleuOGSans-Light-WebS.svg) format('svg');
+    src: url(../fonts/SangBleuOGSans-Light.otf) format('opentype');
+    src: url(../fonts/SangBleuOGSans-Light-WebS.woff) format('woff'), url(../fonts/SangBleuOGSans-Light-WebS.woff2) format('woff2');
+    font-weight: light;
+    font-style: regular;
+}
+
+/* regular */
+@font-face {
+    font-family: 'SangBleu';
+    src: url(..font/SangBleuOGSans-Regular-WebS.svg) format('svg');
+    src: url(../fonts/SangBleuOGSans-Regular.otf) format('opentype');
+    src: url(../fonts/SangBleuOGSans-Regular-WebS.woff) format('woff'), url(../fonts/SangBleuOGSans-Regular-WebS.woff2) format('woff2');
+    font-weight: regular;
+    font-style: regular;
 }
 
 body {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 /* Set font to SangBleu */
 h1 {
     font-family: 'SangBleu', 'Lato', sans-serif;
-    font-size: 4.5rem;
-    letter-spacing: 0.4rem;
+    font-size: calc(3.5rem + 1.5vw);
+    /* letter-spacing: 0.2rem; */
+    font-weight: light;
 }
 
 h2 {
     font-family: 'SangBleu', 'Lato', sans-serif;
 }
 
-a, li, ul {
+.display-4 {
+    font-family: 'SangBleu';
+}
+
+
+a, li, ul, a :active, a :hover {
     color: #000;
 }
+
+.active {
+    color: #000;
+}
+
 .hero {
     position: relative;
     width: 100%;
     height: auto;
     min-height: 35rem;
     padding: 10rem 0;
-    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../assets/img/bg-masthead.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -74,6 +107,8 @@ a, li, ul {
     width: 100%;
   }
 
+
+
   /* Nav styling */
 
 .navbar {
@@ -84,8 +119,7 @@ a, li, ul {
     color: #000;
 }
 
-.nav-item :hover {
+.nav-item :hover, .nav-item :active {
     color: #000;
     text-decoration: line-through;
-    
 }
