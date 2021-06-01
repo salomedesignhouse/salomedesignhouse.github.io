@@ -71,7 +71,7 @@ a, a:active, a:hover, input {
     height: auto;
     min-height: 35rem;
     padding:10rem 0;
-    background: #000 url("../images/bg-main.mp4");
+    background: rgb(20, 20, 20) url("../images/bg-main.mp4");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
