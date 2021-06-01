@@ -25,7 +25,7 @@
 /* regular */
 @font-face {
     font-family: 'SangBleu';
-    src: url(..font/SangBleuOGSans-Regular-WebS.svg) format('svg');
+    src: url(..fonts/SangBleuOGSans-Regular-WebS.svg) format('svg');
     src: url(../fonts/SangBleuOGSans-Regular.otf) format('opentype');
     src: url(../fonts/SangBleuOGSans-Regular-WebS.woff) format('woff'), url(../fonts/SangBleuOGSans-Regular-WebS.woff2) format('woff2');
     font-weight: regular;
@@ -43,10 +43,12 @@ h1 {
     font-size: calc(3rem + 1.5vw);
     /* letter-spacing: 0.2rem; */
     font-weight: light;
+    color: #fff
 }
 
 h2 {
     font-family: 'SangBleu', 'Lato', sans-serif;
+    font-size: calc(1.5rem + 1.5vw);
 }
 
 .display-4 {
@@ -54,8 +56,9 @@ h2 {
 }
 
 
-a, li, ul, a :active, a :hover {
+a, a:active, a:hover, input {
     color: #000;
+    font-family: 'SangBleu';
 }
 
 .active {
@@ -67,11 +70,16 @@ a, li, ul, a :active, a :hover {
     width: 100%;
     height: auto;
     min-height: 35rem;
-    padding: 10rem 0;
+    padding:10rem 0;
+    background: #000 url("../images/bg-main.mp4");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
+}
+
+.hero video {
+    position: absolute;
 }
 
 .process-item .process-item-number {
@@ -111,14 +119,104 @@ a, li, ul, a :active, a :hover {
   /* Nav styling */
 
 .navbar {
-    color: #000;
+    color: #fff;
 }
 
-.nav-link :active, .nav-link, nav-link :hover {
-    color: #000;
+.navbar-expand-lg {
+    color: #fff;
+}
+.nav-link:active, .nav-link, .nav-link:hover {
+    color: #fff;
 }
 
-.nav-item :hover, .nav-item :active {
-    color: #000;
+.nav-item:hover, .nav-item:active {
+    color: #fff;
     text-decoration: line-through;
 }
+
+.navbar-text {
+    color: #fff
+}
+
+.navbar-brand {
+    color: #fff
+}
+.navbar-brand:hover {
+    color: #fff
+}
+
+.nav-custom {
+    background-color: rgb(20, 20, 20);
+}
+
+
+/* Buttons */
+.button-black {
+    border: 0.5px solid;
+    border-color: #000;
+    color: #000;
+    border-radius: 40px;
+    background-color: transparent;
+    margin: 1rem 0;
+    padding: 1rem 3rem;
+}
+
+.button-black:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.button-white {
+    border: 0.5px solid;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 40px;
+    background-color: transparent;
+    margin: 1rem 0;
+    padding: 1rem 3rem;
+}
+
+.button-white:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* Nav Pills */
+.nav-pills .show>.nav-link {
+    color:#000;
+    background-color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    color:rgb(247, 44, 44);
+    background-color: #fff;
+}
+
+.black-text, .black-text:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Pricing */
+
+.card {
+    border: none;
+}
+
+.premium-card {
+    background: #f85032;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff    
+}
+
+
+/* overwrite buttons here  */
+
+/* .btn-outline-primary-white */
+/* .btn-outline-primary-black
