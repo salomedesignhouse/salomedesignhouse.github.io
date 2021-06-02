@@ -1,16 +1,5 @@
 /* ALL FONT STUFF */
 
-/* 
-@font-face {
-    font-family: 'SangBleu';
-    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light.otf") format("opentype");
-    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.woff") format("woff"), url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.woff2") format("woff2");
-    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light.ttf") format("truetype");
-    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.eot");
-    src: url("https://github.com/salomedesignhouse/salomedesignhouse.github.io/tree/main/fonts/SangBleuOGSans-Light-WebS.eot#iefix") format('embedded-opentype');
-    font-weight: light;
-    font-style: regular;
-} */
 
 /* light */
 @font-face {
@@ -70,17 +59,14 @@ a, a:active, a:hover, input {
     width: 100%;
     height: auto;
     min-height: 35rem;
-    padding:10rem 0;
-    background: rgb(20, 20, 20) url("../images/bg-main.mp4");
+    padding:9rem 0;
+    background: rgb(20, 20, 20) url("../images/red-bg-03.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.hero video {
-    position: absolute;
-}
 
 .process-item .process-item-number {
     position: absolute;
@@ -146,7 +132,7 @@ a, a:active, a:hover, input {
 }
 
 .nav-custom {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(34, 20, 20, 0);
 }
 
 
@@ -186,6 +172,10 @@ a, a:active, a:hover, input {
     border-color: #fff;
 }
 
+.red-text:hover{
+    color: #e73827;
+}
+
 /* Nav Pills */
 .nav-pills .show>.nav-link {
     color:#000;
@@ -193,7 +183,7 @@ a, a:active, a:hover, input {
 }
 
 .nav-pills .nav-link.active {
-    color:rgb(247, 44, 44);
+    color:#e73827;
     background-color: #fff;
 }
 
@@ -210,8 +200,8 @@ a, a:active, a:hover, input {
 
 .premium-card {
     background: #f85032;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff    
 }
 

@@ -23,6 +23,7 @@
   <title>Salomé Design House</title>
   </head>
   <body>
+    <div class="hero">
     <nav class="navbar navbar-expand-lg nav-custom py-3">
       <div class="container px-5">
           <a class="navbar-brand" href="#!">
@@ -46,7 +47,7 @@
 
 
 <!-- HERO -->
-  <header class="hero">
+  <header>
       <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
           <div class="row gx-5">
               <div>
@@ -54,13 +55,14 @@
                       <h1 class="mb-2">Cutting edge podcast design, served to you on a silver platter.</h1>
                       <!-- <p class="lead text-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit!</p> -->
                       <div class="d-grid gap-3 d-sm-flex ">
-                          <a class="btn btn-primary btn-lg px-4 me-sm-3 button-white" href="#about">work with us</a>
+                          <a class="btn btn-primary btn-lg px-4 me-sm-3 button-white red-text" href="#about">work with us</a>
                       </div>
                   </div>
               </div>
           </div>
       </div>
   </header>
+</div>
 
 <!-- ABOUT -->
   <section class="py-5" id="about">
@@ -69,17 +71,17 @@
         <div class="row gx-5">
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div> -->
-                <h2 class="h4">We love podcasts</h2>
+                <h2 class="h4 py-3">We love podcasts</h2>
                 <p>Salome Design House is a unique branding and design experience that caters to podcast artists looking to sharpen their visual identity. We know that your voice deserves assets that match the quality of your show, so let us take the verbal to visual and worry about the devil in the details.</p>
             </div>
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div> -->
-                <h2 class="h4">We listen to creators</h2>
+                <h2 class="h4 py-3">We listen to creators</h2>
                 <p>We care about your input and who you are. We know that articulating your voice into tangible, visual assets is the next step to building your empire. So, we are dedicated to giving your voice the visuals it needs when it reaches your listeners.</p>
             </div>
             <div class="col-lg-4">
                 <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div> -->
-                <h2 class="h4">We know design</h2>
+                <h2 class="h4 py-3">We know design</h2>
                 <p>Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
                   Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.</p>
                   <!-- <p> Matthew is a seasoned graphic designer, educated at Sheridan College/York University in a renowned design program. Victoria is a recent graduate from the University of Michigan with a specialized degree in user experience design.</p> -->
@@ -88,31 +90,6 @@
         </div>
     </div>
   </section>
-
-
-
-  <!-- PROCESS -->
-  <section class="container px-5 my-5">
-    <h2 class="py-5">Our Process</h2>
-  <div class="d-flex align-items-start">
-    <div class="nav flex-column nav-pills me-3 black-text" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <button class="nav-link active black-text h4" id="pitch-tab" data-bs-toggle="pill" data-bs-target="#pitch" type="button" role="tab" aria-controls="pitch" aria-selected="true">Pitch</button>
-      <button class="nav-link black-text h4" id="ideate-tab" data-bs-toggle="pill" data-bs-target="#ideate" type="button" role="tab" aria-controls="ideate" aria-selected="false">Ideate</button>
-      <button class="nav-link black-text h4" id="design-tab" data-bs-toggle="pill" data-bs-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">Design</button>
-      <button class="nav-link black-text h4" id="deliver-tab" data-bs-toggle="pill" data-bs-target="#deliver" type="button" role="tab" aria-controls="deliver" aria-selected="false">Deliver</button>
-    </div>
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="pitch" role="tabpanel" aria-labelledby="pitch">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-        Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve. Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.</div>
-      <div class="tab-pane fade" id="ideate" role="tabpanel" aria-labelledby="ideate">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-        Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
-      <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-        Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
-      <div class="tab-pane fade" id="deliver" role="tabpanel" aria-labelledby="deliver">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-        Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
-    </div>
-  </div>
-</section>
 
 
 <!-- PORTFOLIO -->
@@ -146,6 +123,29 @@
       </div>
   </section>
 
+    <!-- PROCESS -->
+    <section class="container px-5 my-5" id="process">
+      <h2 class="py-5">Our Process</h2>
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-3 black-text" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active black-text h4" id="pitch-tab" data-bs-toggle="pill" data-bs-target="#pitch" type="button" role="tab" aria-controls="pitch" aria-selected="true">Pitch</button>
+        <button class="nav-link black-text h4" id="ideate-tab" data-bs-toggle="pill" data-bs-target="#ideate" type="button" role="tab" aria-controls="ideate" aria-selected="false">Ideate</button>
+        <button class="nav-link black-text h4" id="design-tab" data-bs-toggle="pill" data-bs-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">Design</button>
+        <button class="nav-link black-text h4" id="deliver-tab" data-bs-toggle="pill" data-bs-target="#deliver" type="button" role="tab" aria-controls="deliver" aria-selected="false">Deliver</button>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="pitch" role="tabpanel" aria-labelledby="pitch">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve. Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.</div>
+        <div class="tab-pane fade" id="ideate" role="tabpanel" aria-labelledby="ideate">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
+        <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
+        <div class="tab-pane fade" id="deliver" role="tabpanel" aria-labelledby="deliver">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
+      </div>
+    </div>
+  </section>
+
 
 
   <!-- PRICING -->
@@ -163,8 +163,9 @@
                             <div class="small text-uppercase fw-bold text-muted">Essentials</div>
                             <div class="mb-3">
                                 <span class="display-4 fw-bold">$150</span>
+                                <span>+ TAX</span>
                             </div>
-                              <p>For the casual podcasting hobbyists just starting out</p>
+                              <p class="fw-bold">For the casual podcasting hobbyists just starting out</p>
                           <hr></hr>
                             <ul class="list-unstyled mb-4">
                                 <li class="mb-2">
@@ -201,17 +202,17 @@
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                   </svg>
-                                    3D Mockup
+                                    3D Mockup & Header
                                 </li>
                                 <li class="mb-2 text-muted">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                   </svg>
-                                    Social Meda Kit & Header
+                                    Social Meda Kit
                                 </li>
                                 <li>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                   </svg>
                                     10 Day Delivery Time
                                 </li>
@@ -228,8 +229,9 @@
                                 </i>Standard</div>
                             <div class="mb-3">
                                 <span class="display-4 fw-bold">$250</span>
+                                <span>+ TAX</span>
                             </div>
-                              <p>For those who want to break into the industry</p>
+                              <p class="fw-bold">For those who want to break into the industry</p>
                               <hr></hr>
                               <ul class="list-unstyled mb-4">
                                 <li class="mb-2">
@@ -266,17 +268,17 @@
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                     <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                   </svg>
-                                    3D Mockup
+                                    3D Mockup & Header
                                 </li>
                                 <li class="mb-2 text-muted">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                   </svg>
-                                    Social Meda Kit & Header
+                                    Social Meda Kit
                                 </li>
                                 <li>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                   </svg>
                                     10 Day Delivery Time
                                 </li>
@@ -292,8 +294,9 @@
                             <div class="small text-uppercase fw-bold text-white">Premium</div>
                             <div class="mb-3">
                                 <span class="display-4 fw-bold">$300</span>
+                                <span>+ TAX</span>
                             </div>
-                            <p class="text-white">For those destined to make the top charts</p>
+                            <p class="fw-bold text-white">For those destined to make the top charts</p>
                             <hr></hr>
                             <ul class="list-unstyled mb-4 text-white">
                                 <li class="mb-2 text-white">
@@ -307,13 +310,13 @@
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                     <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                   </svg>
-                                    <strong>Two</strong> initial concepts
+                                    <strong>Three</strong> initial concepts
                                 </li>
                                 <li class="mb-2 text-white">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                     <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                   </svg>
-                                    <strong>Two</strong> revisions of selected concept
+                                    <strong>Three</strong> revisions of selected concept
                                 </li>
                                 <li class="mb-2 text-white">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
@@ -346,7 +349,7 @@
                                     10 Day Delivery Time
                                 </li>
                             </ul>
-                            <div class="d-grid"><a class="btn button-white" href="#contact">let's get started</a></div>
+                            <div class="d-grid"><a class="btn button-white red-text" href="#contact">let's get started</a></div>
                         </div>
                     </div>
                 </div>
