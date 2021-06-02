@@ -126,24 +126,48 @@
     <!-- PROCESS -->
     <section class="container px-5 my-5" id="process">
       <h2 class="py-5">Our Process</h2>
-    <div class="d-flex align-items-start">
-      <div class="nav flex-column nav-pills me-3 black-text" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <button class="nav-link active black-text h4" id="pitch-tab" data-bs-toggle="pill" data-bs-target="#pitch" type="button" role="tab" aria-controls="pitch" aria-selected="true">Pitch</button>
-        <button class="nav-link black-text h4" id="ideate-tab" data-bs-toggle="pill" data-bs-target="#ideate" type="button" role="tab" aria-controls="ideate" aria-selected="false">Ideate</button>
-        <button class="nav-link black-text h4" id="design-tab" data-bs-toggle="pill" data-bs-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">Design</button>
-        <button class="nav-link black-text h4" id="deliver-tab" data-bs-toggle="pill" data-bs-target="#deliver" type="button" role="tab" aria-controls="deliver" aria-selected="false">Deliver</button>
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Pitch</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Ideate</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Design</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Deliver</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              pitch text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f85032" d="M47.6,-36C53.9,-16.6,45.8,2.5,35.4,18.6C25.1,34.7,12.5,47.6,-8.1,52.3C-28.7,56.9,-57.4,53.3,-71,35.4C-84.6,17.5,-83,-14.8,-68.7,-38.8C-54.3,-62.9,-27.1,-78.7,-3.2,-76.9C20.7,-75,41.4,-55.4,47.6,-36Z" transform="translate(100 100)" />
+              </svg>
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              ideate text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f85032" d="M39.5,-25.1C50.6,-3.5,58.7,17.5,51.6,29.9C44.5,42.2,22.3,45.9,3.6,43.8C-15.1,41.8,-30.2,34,-36.1,22.3C-42,10.6,-38.6,-4.9,-31.1,-24.4C-23.5,-43.9,-11.8,-67.3,1.2,-68C14.2,-68.7,28.3,-46.6,39.5,-25.1Z" transform="translate(100 100)" />
+              </svg>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              design text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f85032" d="M53.6,-36.5C66.8,-26.2,73.1,-4,69.9,18.3C66.6,40.6,53.9,63.1,37.5,66.7C21.1,70.4,0.9,55.1,-20.2,44.1C-41.4,33.1,-63.7,26.4,-68.2,13.6C-72.6,0.9,-59.3,-17.9,-45,-28.5C-30.6,-39.1,-15.3,-41.6,2.4,-43.5C20.2,-45.4,40.4,-46.9,53.6,-36.5Z" transform="translate(100 100)" />
+              </svg>
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+              deliver text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f85032" d="M53.4,-40.6C65.7,-27.1,69.8,-5.1,63.7,11.8C57.6,28.7,41.4,40.6,23,50.5C4.5,60.5,-16.2,68.6,-32.6,62.6C-49,56.7,-61.2,36.7,-61.6,18.7C-62.1,0.6,-50.8,-15.5,-38.6,-29C-26.4,-42.4,-13.2,-53.3,3.7,-56.2C20.5,-59.1,41.1,-54.1,53.4,-40.6Z" transform="translate(100 100)" />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="pitch" role="tabpanel" aria-labelledby="pitch">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve. Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.</div>
-        <div class="tab-pane fade" id="ideate" role="tabpanel" aria-labelledby="ideate">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
-        <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
-        <div class="tab-pane fade" id="deliver" role="tabpanel" aria-labelledby="deliver">Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-          Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve</div>
-      </div>
-    </div>
   </section>
 
 
