@@ -23,10 +23,14 @@
   <title>Salomé Design House</title>
   </head>
   <body>
-    <div class="hero">
-    <nav class="navbar navbar-expand-lg nav-custom py-3">
+    <div>
+    <div>
+      <div class="radial-gradient">
+      <div class="overlay">
+    </div>
+    <nav class="navbar navbar-expand-lg nav-custom py-3 header-text">
       <div class="container px-5">
-          <a class="navbar-brand" href="#!">
+          <a class="navbar-brand" href="#home">
             <img src="../images/salome-brand-white-noDH.svg" alt="Salomé logo" width="100"></img>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +39,7 @@
             </svg></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
                   <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                   <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                   <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
@@ -47,21 +51,24 @@
 
 
 <!-- HERO -->
-  <header>
-      <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-          <div class="row gx-5">
+  <header class="vertical-center">
+      <div class="container px-4 px-lg-5 d-flex justify-content-center">
+          <div class="row px-5">
               <div>
-                  <div class="text-left my-5">
-                      <h1 class="mb-2">Cutting edge podcast design, served to you on a silver platter.</h1>
-                      <!-- <p class="lead text-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit!</p> -->
-                      <div class="d-grid gap-3 d-sm-flex ">
-                          <a class="btn btn-primary btn-lg px-4 me-sm-3 button-white red-text" href="#about">work with us</a>
-                      </div>
+                <p class="header-text py-2 d-none d-lg-block">WE ARE SALOMÉ DESIGN HOUSE</p>
+                  <div class="text-md-center">
+                      <h1 class="mb-2"><i>SHARP</i> design <br> for the <i>SILVER <br> TONGUE</i></h1>
                   </div>
+                  <!-- <div>
+                    <p class="header-text py-2 d-none d-lg-block text-lg-right">Here at Salomé design house we have made it our mission to help budding podcasters reach their full potential - and audience - with killer branding.</p>
+                  </div> -->
+
               </div>
           </div>
       </div>
   </header>
+</div>
+</div>
 </div>
 
 <!-- ABOUT -->
@@ -70,22 +77,24 @@
       <h2 class="py-5">About</h2>
         <div class="row gx-5">
             <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="px-4">
                 <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div> -->
                 <h2 class="h4 py-3">We love podcasts</h2>
                 <p>Salome Design House is a unique branding and design experience that caters to podcast artists looking to sharpen their visual identity. We know that your voice deserves assets that match the quality of your show, so let us take the verbal to visual and worry about the devil in the details.</p>
+              </div>
             </div>
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div> -->
+              <div class="px-4">
                 <h2 class="h4 py-3">We listen to creators</h2>
                 <p>We care about your input and who you are. We know that articulating your voice into tangible, visual assets is the next step to building your empire. So, we are dedicated to giving your voice the visuals it needs when it reaches your listeners.</p>
+              </div>
             </div>
             <div class="col-lg-4">
-                <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div> -->
+              <div class="px-4">
                 <h2 class="h4 py-3">We know design</h2>
                 <p>Salomé Design house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
                   Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.</p>
-                  <!-- <p> Matthew is a seasoned graphic designer, educated at Sheridan College/York University in a renowned design program. Victoria is a recent graduate from the University of Michigan with a specialized degree in user experience design.</p> -->
-                <!-- <p>Our team we has the knowledge to help your podcast grow in its visual and online presence through elevating your identity, providing social media kits and other extras to get you the notoriety you deserve</p> -->
+              </div>
             </div>
         </div>
     </div>
@@ -93,10 +102,10 @@
 
 
 <!-- PORTFOLIO -->
-  <section class="py-5" id="portfolio">
+  <section class="py-5 bg-dark" id="portfolio">
     <div class="text-center mb-5">
-      <h2 class="fw-bolder">Portfolio</h2>
-      <p class="lead mb-0">Swipe through to see some of our most recent covers.</p>
+      <h2 class="fw-bolder py-5 text-white">Portfolio</h2>
+      <!-- <p class="lead mb-0 text-white">Swipe through to see some of our most recent covers.</p> -->
     </div>
       <div class="swiper-container mySwiper" id="portfolio">
         <div class="swiper-wrapper">
@@ -119,7 +128,7 @@
             <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
           </div>
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination text-white"></div>
       </div>
   </section>
 
@@ -241,7 +250,6 @@
                                     10 Day Delivery Time
                                 </li>
                             </ul>
-                            <div class="d-grid"><a class="btn button-black" href="#contact">let's get started</a></div>
                         </div>
                     </div>
                 </div>
@@ -280,7 +288,7 @@
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
                                     <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
                                   </svg>
-                                     High quality podcast cover
+                                    High quality podcast cover
                                 </li>
                                 <li class="mb-2">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
@@ -307,7 +315,7 @@
                                     10 Day Delivery Time
                                 </li>
                             </ul>
-                            <div class="d-grid"><a class="btn button-black" href="#contact">let's get started</a></div>
+
                         </div>
                     </div>
                 </div>
@@ -373,7 +381,7 @@
                                     10 Day Delivery Time
                                 </li>
                             </ul>
-                            <div class="d-grid"><a class="btn button-white red-text" href="#contact">let's get started</a></div>
+
                         </div>
                     </div>
                 </div>
