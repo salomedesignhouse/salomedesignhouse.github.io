@@ -94,53 +94,25 @@ a, a:active, a:hover, input {
     display: flex;
     align-items: center;
 }
-/*
-.hero {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding:9rem 0; */
-    /* background: rgb(20, 20, 20) url("../images/red-bg-03.png"); */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
-
-
-.process-item .process-item-number {
-    position: absolute;
-    color: #e1e1e1;
-    right: 0;
-    top: 0;
-    -webkit-transform: translate(127%,-21%);
-    -ms-transform: translate(127%,-21%);
-    transform: translate(127%,-21%);
-    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-weight: 800;
-    background-color: #fff;
-    font-size: 3.157rem;
-}
 
 /* Cover Scroll */
 .swiper-container {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
-  }
+}
   /* Nav styling */
 
 .navbar {
@@ -152,6 +124,7 @@ a, a:active, a:hover, input {
 .navbar-expand-lg {
     color: #fff;
 }
+
 .nav-link:active, .nav-link, .nav-link:hover {
     color: #fff;
 }
@@ -218,7 +191,7 @@ a, a:active, a:hover, input {
 }
 
 /* Nav Pills */
-.nav-pills .show>.nav-link {
+/* .nav-pills .show>.nav-link {
     color:#000;
     background-color: #fff;
 }
@@ -226,6 +199,24 @@ a, a:active, a:hover, input {
 .nav-pills .nav-link.active {
     color:#e73827;
     background-color: #fff;
+} */
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    color: #212529;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(59, 7, 7, 0);
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #ffffff;
 }
 
 .black-text, .black-text:hover {
@@ -240,14 +231,11 @@ a, a:active, a:hover, input {
 }
 
 .premium-card {
-    background: #f85032;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff583b;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #e73827, #f85032); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     color: #fff;
 }
-
-
-/* overwrite buttons here  */
 
 /* .btn-outline-primary-white */
 
@@ -288,4 +276,8 @@ a, a:active, a:hover, input {
 
 @media screen and (min-width: 600px)  {
         .hide-mobile { display: none; }
+}
+
+*:target{
+    border-color: #fff;
 }

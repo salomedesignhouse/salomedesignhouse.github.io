@@ -1,3 +1,4 @@
+
 $(document).mousemove(function(event) {
     windowWidth = $(window).width();
     windowHeight = $(window).height();
