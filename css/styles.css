@@ -51,6 +51,10 @@ body {
     background-color: #f0edec;
 }
 
+.dark-bg {
+    background-color: #0f0f0f;
+}
+
 /* Set font to SangBleu */
 h1 {
     font-family: 'SangBleu', 'Lato', sans-serif;
@@ -99,8 +103,8 @@ a, a:active, a:hover, input {
 /* Cover Scroll */
 .swiper-container {
     width: 100%;
-    padding-top: 1em;
-    padding-bottom: 5em;
+    padding-top: 3em;
+    padding-bottom: 7em;
     margin-bottom: 2em;
 }
 
@@ -120,7 +124,7 @@ a, a:active, a:hover, input {
     position: absolute;
     bottom: 5px;
     left: 50%;
-    width:80%;
+    width:70%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -137,6 +141,12 @@ a, a:active, a:hover, input {
 
 .carousel-padding {
     z-index: 50;
+}
+
+.podcast-underlay {
+    background-image: url(../images/podcast-underlay.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
