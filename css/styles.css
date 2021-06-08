@@ -41,7 +41,6 @@
     font-style: italic;
 }
 
-
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -123,7 +122,7 @@ a, a:active, a:hover, input {
 .lower-page{
     position: absolute;
     bottom: 5px;
-    left: 50%;
+    left: 53%;
     width:70%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -148,6 +147,7 @@ a, a:active, a:hover, input {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 
   /* Nav styling */
@@ -291,7 +291,7 @@ a, a:active, a:hover, input {
     /*Linear gradient... */
     background:
         radial-gradient(
-        at center, #f85032, #f0edec
+        12rem at center, #f85032, #f0edec
         );
         mix-blend-mode: multiply;
     }
