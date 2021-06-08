@@ -47,6 +47,10 @@ body {
     font-weight: 300;
 }
 
+.light-bg {
+    background-color: #f0edec;
+}
+
 /* Set font to SangBleu */
 h1 {
     font-family: 'SangBleu', 'Lato', sans-serif;
@@ -95,8 +99,9 @@ a, a:active, a:hover, input {
 /* Cover Scroll */
 .swiper-container {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 .swiper-slide {
@@ -110,6 +115,31 @@ a, a:active, a:hover, input {
     display: block;
     width: 100%;
 }
+
+.lower-page{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    width:80%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    z-index: 20;
+}
+
+.swiper-pagination {
+    z-index: -5;
+}
+
+.carousel-padding {
+    z-index: 50;
+}
+
+
   /* Nav styling */
 
 .navbar {

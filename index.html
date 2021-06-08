@@ -133,8 +133,23 @@
             <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
           </div>
         </div>
+
+        <!-- pagination -->
+
+        <div class="row py-3 lower-page">
+          <div>
+            <svg class="swiper-button-prev carousel-padding" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg>
+          </div>
+          <div >
+            <svg class="swiper-button-next carousel-padding" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </div>
+        </div>
+
         <div class="swiper-pagination text-white"></div>
-        
       </div>
   </section>
 
@@ -142,7 +157,7 @@
     <section class="container px-5 my-5" id="process">
       <h2 class="py-5">Our Process</h2>
       <div class="row">
-        <div class="col-4">
+        <div class="col-3 py-4">
           <div class="list-group" id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action active" id="list-pitch-list" data-bs-toggle="list" href="#list-pitch" role="tab" aria-controls="list-home">PITCH</a>
             <a class="list-group-item list-group-item-action" id="list-ideate-list" data-bs-toggle="list" href="#list-ideate" role="tab" aria-controls="list-profile">IDEATE</a>
@@ -150,32 +165,48 @@
             <a class="list-group-item list-group-item-action" id="list-deliver-list" data-bs-toggle="list" href="#list-deliver" role="tab" aria-controls="list-settings">DELIVER</a>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-md-6 py-4">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-pitch" role="tabpanel" aria-labelledby="list-pitch-list">
               pitch text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
               Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+
+            </div>
+            <div class="tab-pane fade" id="list-ideate" role="tabpanel" aria-labelledby="list-ideate-list">
+              ideate text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+
+            </div>
+            <div class="tab-pane fade" id="list-design" role="tabpanel" aria-labelledby="list-design-list">
+              design text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+
+            </div>
+            <div class="tab-pane fade" id="list-deliver" role="tabpanel" aria-labelledby="list-deliver-list">
+              deliver text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
+              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-4">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-pitch" role="tabpanel" aria-labelledby="list-pitch-list">
               <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#f85032" d="M47.6,-36C53.9,-16.6,45.8,2.5,35.4,18.6C25.1,34.7,12.5,47.6,-8.1,52.3C-28.7,56.9,-57.4,53.3,-71,35.4C-84.6,17.5,-83,-14.8,-68.7,-38.8C-54.3,-62.9,-27.1,-78.7,-3.2,-76.9C20.7,-75,41.4,-55.4,47.6,-36Z" transform="translate(100 100)" />
               </svg>
             </div>
             <div class="tab-pane fade" id="list-ideate" role="tabpanel" aria-labelledby="list-ideate-list">
-              ideate text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
               <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#f85032" d="M39.5,-25.1C50.6,-3.5,58.7,17.5,51.6,29.9C44.5,42.2,22.3,45.9,3.6,43.8C-15.1,41.8,-30.2,34,-36.1,22.3C-42,10.6,-38.6,-4.9,-31.1,-24.4C-23.5,-43.9,-11.8,-67.3,1.2,-68C14.2,-68.7,28.3,-46.6,39.5,-25.1Z" transform="translate(100 100)" />
               </svg>
             </div>
             <div class="tab-pane fade" id="list-design" role="tabpanel" aria-labelledby="list-design-list">
-              design text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
               <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#f85032" d="M53.6,-36.5C66.8,-26.2,73.1,-4,69.9,18.3C66.6,40.6,53.9,63.1,37.5,66.7C21.1,70.4,0.9,55.1,-20.2,44.1C-41.4,33.1,-63.7,26.4,-68.2,13.6C-72.6,0.9,-59.3,-17.9,-45,-28.5C-30.6,-39.1,-15.3,-41.6,2.4,-43.5C20.2,-45.4,40.4,-46.9,53.6,-36.5Z" transform="translate(100 100)" />
               </svg>
             </div>
             <div class="tab-pane fade" id="list-deliver" role="tabpanel" aria-labelledby="list-deliver-list">
-              deliver text house was co-founded by two creatives, and long-time friends with intersecting skills and interests.
-              Our team has the knowledge to help your podcast grow in its visual and online presence by elevating your visual identity to get you the notoriety you deserve.
               <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#f85032" d="M53.4,-40.6C65.7,-27.1,69.8,-5.1,63.7,11.8C57.6,28.7,41.4,40.6,23,50.5C4.5,60.5,-16.2,68.6,-32.6,62.6C-49,56.7,-61.2,36.7,-61.6,18.7C-62.1,0.6,-50.8,-15.5,-38.6,-29C-26.4,-42.4,-13.2,-53.3,3.7,-56.2C20.5,-59.1,41.1,-54.1,53.4,-40.6Z" transform="translate(100 100)" />
               </svg>
@@ -188,7 +219,7 @@
 
 
   <!-- PRICING -->
-      <section class="bg-light py-5" id="pricing">
+      <section class="light-bg py-5" id="pricing">
         <div class="container px-5 my-5">
             <div class="text-center mb-5">
                 <h2 class="py-3">Pricing Plans</h2>
@@ -487,12 +518,13 @@
           depth: 100,
           modifier: 1,
           slideShadows: true,
+          stretch: -80,
         },
         pagination: {
           el: ".swiper-pagination",
           type: 'custom',
           renderCustom: function (swiper, current, total) {
-          return '0'+ current + ' — 0' + (total);
+          return '0'+ current + ' &ensp; — &ensp; 0' + (total);
         }
         },
         navigation: {
