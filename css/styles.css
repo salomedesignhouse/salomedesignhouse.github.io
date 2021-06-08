@@ -42,9 +42,6 @@
 }
 
 
-
-
-
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -59,7 +56,7 @@ h1 {
     color: #fff;
     mix-blend-mode: difference;
     /* z-index: 10; */
-    cursor:pointer;
+    cursor:none;
 }
 
 
@@ -89,8 +86,8 @@ a, a:active, a:hover, input {
 
 .vertical-center {
     width: 100%;
-	height: 80vh;
-    min-height: 80%;
+	height: 75vh;
+    min-height: 75%;
     display: flex;
     align-items: center;
 }
@@ -127,6 +124,7 @@ a, a:active, a:hover, input {
 
 .nav-link:active, .nav-link, .nav-link:hover {
     color: #fff;
+    font-weight: 400;
 }
 
 .nav-item:hover, .nav-item:active {
@@ -253,7 +251,7 @@ a, a:active, a:hover, input {
     /*Linear gradient... */
     background:
         radial-gradient(
-        at center, #f85032, #e4dbd7
+        at center, #f85032, #f0edec
         );
         mix-blend-mode: multiply;
     }
