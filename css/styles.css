@@ -50,7 +50,7 @@ body {
 /* Set font to SangBleu */
 h1 {
     font-family: 'SangBleu', 'Lato', sans-serif;
-    font-size: calc(4.5rem + 1.5vw);
+    font-size: calc(4.75rem + 1.5vw);
     /* letter-spacing: 0.2rem; */
     font-weight: light;
     color: #fff;
@@ -278,4 +278,43 @@ a, a:active, a:hover, input {
 
 *:target{
     border-color: #fff;
+}
+
+/* Scrolly thing */
+
+
+.scroll-down {
+	left: 50%;
+	bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+  width: 13px;
+  height: 13px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
 }
