@@ -41,7 +41,11 @@
     font-style: italic;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 body {
+    position: relative;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -240,6 +244,7 @@ a, a:active, a:hover, input {
 } */
 
 .list-group-item {
+    font-family: 'SangBleu';
     position: relative;
     display: block;
     padding: .75rem 1rem;
